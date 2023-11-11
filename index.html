@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Скидан Олеся ІС-13 лаб5 в.111</title>
+</head>
+<body>
+  <div class="container">
+    <form id="dataForm">
+
+      <label for="fullName">ПІБ:</label>
+      <input type="text" id="fullName" name="fullName" class="input-field" placeholder="ТТТТТ Т.Т." required>
+      <span id="fullNameError" class="error-message"></span><br>
+
+      <label for="phone">Телефон:</label>
+      <input type="tel" id="phone" name="phone" class="input-field" placeholder="(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ" required>
+      <span id="phoneError" class="error-message"></span><br>
+
+      <label for="faculty">Факультет:</label>
+      <input type="tel" id="faculty" name="faculty" class="input-field" placeholder="ТТТТ" required>
+      <span id="facultyError" class="error-message"></span><br>
+
+      <label for="birthdate">Дата народження:</label>
+      <input type="tel" id="birthdate" name="birthdate" class="input-field" placeholder="ДД.ММ.РРРР" required>
+      <span id="birthdateError" class="error-message"></span><br>
+      
+      <label for="address">Адреса:</label>
+      <input type="tel" id="address" name="address" class="input-field" placeholder="м. ТТТТТ" required>
+      <span id="addressError" class="error-message"></span><br>
+
+      <button type="submit" class="submit-button">Відправити</button>
+    </form>
+    <div id="output" class="output-container"></div>
+  </div>
+
+  <div class="task2">
+
+    <table id="myTable">
+      <tbody></tbody>
+    </table>
+
+    <input type="color" id="colorPicker" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
